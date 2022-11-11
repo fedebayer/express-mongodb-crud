@@ -1,0 +1,32 @@
+{
+  "name": "express-mongodb-crud",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FedeBayer/express-mongodb-crud.git"
+  },
+  "author": "FedeBayer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FedeBayer/express-mongodb-crud/issues"
+  },
+  "homepage": "https://github.com/FedeBayer/express-mongodb-crud#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "mongoose": "^6.7.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/node": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.20"
+  }
+}
