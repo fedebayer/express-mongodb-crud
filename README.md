@@ -2,7 +2,7 @@
 
 API Node.js with Express and MongoDB.
 
-### Environment variables
+## Environment variables
 
-MONGODB_URI
-PORT
+- MONGODB_URI
+- PORT
