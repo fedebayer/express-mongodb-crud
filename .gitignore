@@ -1,2 +1,8 @@
+# node dependencies
 node_modules
+
+# environment variables
 .env
+
+# build folder
+dist
